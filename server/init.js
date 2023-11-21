@@ -104,7 +104,7 @@ const populate = async () => {
   let t2 = await tagCreate('javascript');
   let t3 = await tagCreate('android-studio');
   let t4 = await tagCreate('shared-preferences');
-  let c1 = await commentCreate("Hello, this is a test comment, I don't think your question is not very intelligent!", u1)
+  let c1 = await commentCreate("Hello, this is a test comment, I don't think your question is very intelligent!", u1)
   let c2 = await commentCreate("This may be change we need to increase our comments", u2)
   let a1 = await answerCreate('React Router is mostly a wrapper around the history library. history handles interaction with the browser\'s window.history for you with its browser and hash histories. It also provides a memory history which is useful for environments that don\'t have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.', u1, false, [c2]);
   let a2 = await answerCreate('On my end, I like to have a single history object that I can carry even outside components. I like to have a single history.js file that I import on demand, and just manipulate it. You just have to change BrowserRouter to Router, and specify the history prop. This doesn\'t change anything for you, except that you have your own history object that you can manipulate as you want. You need to install history, the library used by react-router.', u1, false);
