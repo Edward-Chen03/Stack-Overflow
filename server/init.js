@@ -95,10 +95,10 @@ function userCreate(username, password, email, admin, rep) {
 
 const saltRounds = 10;
 const hashedPass = bcrypt.hashSync(adminPassword, saltRounds);
-const hashedPass2 = bcrypt.hashSync("EthanIsCool", saltRounds);
+const hashedPass2 = bcrypt.hashSync("eddie", saltRounds);
 
 const populate = async () => {
-  let u1 = await userCreate('EthanPascual', hashedPass2, 'ethan.pascual@gmail.com', true, 50);
+  let u1 = await userCreate('Edward', hashedPass2, 'edward.chen@gmail.com', true, 50);
   let u2 = await userCreate(adminName, hashedPass, 'admin@gmail.com', true, 50);
   let t1 = await tagCreate('react');
   let t2 = await tagCreate('javascript');
