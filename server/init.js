@@ -1,9 +1,5 @@
-//Setup database with initial test data.
-// Include an admin user.
-// Script should take admin credentials as arguments as described in the requirements doc.
-// Run this script to test your schema
-// Start the mongoDB service as a background process before running the script
-// Pass URL of your mongoDB instance as first argument(e.g., mongodb://127.0.0.1:27017/fake_so)
+
+// Pass URL of your mongoDB instance as third argument(e.g., mongodb://127.0.0.1:27017/fake_so)
 const bcrypt = require('bcrypt');
 let userArgs = process.argv.slice(2);
 
