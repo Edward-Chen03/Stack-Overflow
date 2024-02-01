@@ -1,4 +1,4 @@
-## Fake Stack Overflow
+## Fake Stack Overflow (Not Deployed)
 
 This project is designed to be a small scale recreation of the website stack overflow. It uses javascript and a mongo database to replicate functionality and implementation. Please see below for instructions.
 
