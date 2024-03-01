@@ -2,38 +2,29 @@
 
 This project is designed to be a small scale recreation of the website stack overflow. It uses javascript and a mongo database to replicate functionality and implementation. Please see below for instructions.
 
-## Instructions to setup and run project
+## Instructions
 
 Run npm install in both the client and server directory
 
-Make sure to install the following packages using npm install in the server directory:
+Make sure the following packages are install in the server directory:
+express, express-session, connect-mongo, nodemon, cors, mongoose
+
+Make sure the following packages are installed in the client directory:
+axios
+
+Make sure mongo is running as a background service (this project uses MongoDB Community Server which can be installed here https://www.mongodb.com/docs/manual/administration/install-community/). Mongo can be ran in the terminal as mongod which will establish a connection to the database
+
+To create an admin user you can enter the following while in the server directory terminal:
+node init.js username password mongodb://127.0.0.1:27017/fake_so
+Please note that some artifical users and post will be created with the above command
+
+Then simply run the server in the server directory:
+nodemon server.js
+
+and run our client side code in the client directory:
+npm start
 
 
-express
-
-
-express-session
-
-
-connect-mongo
-
-
-nodemon
-
-
-cors
-
-
-mongoose
-
-
-
- Run npm install axios in the client directory.
-
-Make sure mongosh is running as a background service (this project uses MongoDB Community Server which can be installed here https://www.mongodb.com/docs/manual/administration/install-community/):
-run mongod in a separate terminal and then run mongosh in another separate terminal and open mongoDBCompass GUI
-
-To run our project, first make sure to create a fake_so database in the mongo compass (delete the automatic fake_so folder and create a new with fake_so in both fields). Then run our server/init.js file in a server directory terminal to populate the database. The first two arguments will the username and password for an admin user. The third argument will be adress to the mongodb. (node init.js username password (mongoDbAddress)) The email to login to this admin account will be 'admin@gmail.com' Then you can run nodemon server.js in your server directory terminal and then npm start in your separate client directory terminal.
 
 
 
