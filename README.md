@@ -21,7 +21,7 @@ express, express-session, connect-mongo, nodemon, cors, mongoose
 Make sure the following packages are installed in the client directory:
 axios
 
-Make sure mongo is running as a background service (this project uses MongoDB Community Server which can be installed here https://www.mongodb.com/docs/manual/administration/install-community/). Mongo can be ran in the terminal as mongod which will establish a connection to the database
+Make sure mongo is running as a background service (this project uses MongoDB Community Server which can be installed here https://www.mongodb.com/docs/manual/administration/install-community/). Mongo can be ran in the terminal as mongod which will start the background service. (Please ensure that this terminal remains open)
 
 To create an admin user you can enter the following while in the server directory terminal:
 node init.js username password mongodb://127.0.0.1:27017/fake_so
