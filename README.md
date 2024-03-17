@@ -34,9 +34,9 @@ and run our client side code in the client directory:
 npm start
 
 ## Project Specifications
-- Employs MongoDB, a NoSQL database, for robust and flexible data storage. This structure allows seamless handling and organization of complex objects within the application, facilitating efficient data retrieval and manipulation.
+- Employs MongoDB, a NoSQL database, for flexible data storage. This structure allows handling and organization of complex objects within the application, facilitating efficient data retrieval and manipulation.
 - Utilizes JavaScript and Node.js to develop a dynamic and scalable application. Node.js enables server-side execution of JavaScript, ensuring consistent performance and streamlined development. Axios is employed for frontend interactions, providing a reliable means of making HTTP requests, while Express, a minimalist web framework for Node.js, powers the backend, enabling rapid development of RESTful APIs and handling of routing and middleware.
-- Implements bcrypt encryption library to fortify the security of user information. By employing robust cryptographic hashing techniques, sensitive user data such as passwords are securely encrypted before storage, mitigating the risk of unauthorized access or data breaches. This enhances the overall security posture of the application, instilling confidence in users regarding the protection of their personal information.
+- Implements bcrypt encryption library to fortify the security of user information. By employing cryptographic hashing techniques, sensitive user data such as passwords are securely encrypted before storage, mitigating the risk of unauthorized access or data breaches. This enhances the overall security of the application, instilling safeguards regarding the protection of their personal information.
 
 
 
